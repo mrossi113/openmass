@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78c2f73db0a839107105f5cfc294ca05",
+    "content-hash": "59265aaf7d309d631315f5073217adcf",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -501,9 +501,7 @@
             "version": "9.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/components/highlightjs/archive/9.7.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/components/highlightjs/archive/9.7.0.zip"
             },
             "type": "drupal-library"
         },
@@ -1508,9 +1506,7 @@
             "version": "v3.5.17",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/d3/d3/archive/v3.5.17.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/d3/d3/archive/v3.5.17.zip"
             },
             "type": "drupal-library"
         },
@@ -1641,9 +1637,7 @@
             "version": "v4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/desandro/imagesloaded/archive/v4.1.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/desandro/imagesloaded/archive/v4.1.1.zip"
             },
             "type": "drupal-library"
         },
@@ -1652,9 +1646,7 @@
             "version": "4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/desandro/masonry/archive/v4.1.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/desandro/masonry/archive/v4.1.1.zip"
             },
             "type": "drupal-library"
         },
@@ -9595,9 +9587,7 @@
             "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/enyo/dropzone/archive/v4.3.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/enyo/dropzone/archive/v4.3.0.zip"
             },
             "type": "drupal-library"
         },
@@ -10642,16 +10632,16 @@
         },
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "9.31.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
-                "reference": "bf726020eabc58f65b4de846ce8a95ca4c69eddb"
+                "reference": "5e370adb29faf200912040b7e7766dfca438bbab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/bf726020eabc58f65b4de846ce8a95ca4c69eddb",
-                "reference": "bf726020eabc58f65b4de846ce8a95ca4c69eddb",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/5e370adb29faf200912040b7e7766dfca438bbab",
+                "reference": "5e370adb29faf200912040b7e7766dfca438bbab",
                 "shasum": ""
             },
             "require": {
@@ -10669,7 +10659,7 @@
                 }
             ],
             "description": "This repository is the product of the built artifact from massgov/mayflower",
-            "time": "2019-11-12T17:26:44+00:00"
+            "time": "2019-11-25T18:27:31+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -17693,6 +17683,7 @@
         "drupal/security_review": 20,
         "drupal/stage_file_proxy": 15,
         "drupal/views_data_export": 20,
+        "massgov/mayflower-artifacts": 20,
         "mikeyp/google_tag": 20,
         "behat/mink-selenium2-driver": 20,
         "weitzman/logintrait": 20
