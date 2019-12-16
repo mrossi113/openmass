@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "433ec32afa49e7c11b851f7811962567",
+    "content-hash": "f3413661f78361ce9d81a97b06956ea6",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -10696,16 +10696,16 @@
         },
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "9.33.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
-                "reference": "873763b51ae6c5af3a36480e52911c70edf0d3ed"
+                "reference": "68ca3983c9a36aa27efb7ea795c3e1faa90f8fd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/873763b51ae6c5af3a36480e52911c70edf0d3ed",
-                "reference": "873763b51ae6c5af3a36480e52911c70edf0d3ed",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/68ca3983c9a36aa27efb7ea795c3e1faa90f8fd7",
+                "reference": "68ca3983c9a36aa27efb7ea795c3e1faa90f8fd7",
                 "shasum": ""
             },
             "require": {
@@ -10723,7 +10723,7 @@
                 }
             ],
             "description": "This repository is the product of the built artifact from massgov/mayflower",
-            "time": "2019-11-27T14:46:28+00:00"
+            "time": "2019-12-11T15:02:30+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -17686,6 +17686,7 @@
         "drupal/security_review": 20,
         "drupal/stage_file_proxy": 15,
         "drupal/views_data_export": 20,
+        "massgov/mayflower-artifacts": 20,
         "mikeyp/google_tag": 20,
         "behat/mink-selenium2-driver": 20,
         "weitzman/logintrait": 20
