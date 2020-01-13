@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e2441af5ac682779e171ffc0b8bd6ce",
+    "content-hash": "3ee6501b05a06c40e92721acbbba98ae",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -434,9 +434,7 @@
             "version": "9.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/components/highlightjs/archive/9.7.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/components/highlightjs/archive/9.7.0.zip"
             },
             "type": "drupal-library"
         },
@@ -1435,9 +1433,7 @@
             "version": "v3.5.17",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/d3/d3/archive/v3.5.17.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/d3/d3/archive/v3.5.17.zip"
             },
             "type": "drupal-library"
         },
@@ -1568,9 +1564,7 @@
             "version": "v4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/desandro/imagesloaded/archive/v4.1.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/desandro/imagesloaded/archive/v4.1.1.zip"
             },
             "type": "drupal-library"
         },
@@ -1579,9 +1573,7 @@
             "version": "4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/desandro/masonry/archive/v4.1.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/desandro/masonry/archive/v4.1.1.zip"
             },
             "type": "drupal-library"
         },
@@ -9644,9 +9636,7 @@
             "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/enyo/dropzone/archive/v4.3.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/enyo/dropzone/archive/v4.3.0.zip"
             },
             "type": "drupal-library"
         },
@@ -10340,16 +10330,16 @@
         },
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "9.36.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
-                "reference": "c99d3d7677865a96b440dd9f2fd8dadb70aa3964"
+                "reference": "06a1c540c2a175e9e9e74d80052570125e941a20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/c99d3d7677865a96b440dd9f2fd8dadb70aa3964",
-                "reference": "c99d3d7677865a96b440dd9f2fd8dadb70aa3964",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/06a1c540c2a175e9e9e74d80052570125e941a20",
+                "reference": "06a1c540c2a175e9e9e74d80052570125e941a20",
                 "shasum": ""
             },
             "require": {
@@ -10367,7 +10357,7 @@
                 }
             ],
             "description": "This repository is the product of the built artifact from massgov/mayflower",
-            "time": "2020-01-07T18:50:30+00:00"
+            "time": "2020-01-10T15:18:40+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -17517,6 +17507,7 @@
         "drupal/security_review": 20,
         "drupal/stage_file_proxy": 15,
         "drupal/views_data_export": 20,
+        "massgov/mayflower-artifacts": 20,
         "mikeyp/google_tag": 20,
         "behat/mink-selenium2-driver": 20,
         "weitzman/logintrait": 20
