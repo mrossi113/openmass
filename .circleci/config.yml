@@ -508,12 +508,11 @@ workflows:
           requires: [build]
     triggers:
       - schedule:
-          cron: "00 18 * * 4"
+          cron: "00 18 * * 3"
           filters:
             branches:
               only:
                 - develop
-                - fix-triggers
 
   # This is to automate the release branch only.
   release:
@@ -544,7 +543,8 @@ workflows:
           requires:
             - hold
           target: test
-          refresh-db: "--refresh-db"
+          # Commented out the "--refresh-db" for the time being until backup DB is fixed. This will just deploy code to stage.
+          # refresh-db: "--refresh-db"
           filters:
             branches:
               only: /^release\/.*$/
@@ -776,7 +776,6 @@ workflows:
             branches:
               only:
                 - develop
-                - fix-triggers
 
   # Daily rebuild of our sanitized and super-sanitized mysql data images.
   # The cron time needs to be updated every Fall/Spring for daylight saving time.
@@ -800,7 +799,6 @@ workflows:
             branches:
               only:
                 - develop
-                - fix-triggers
 
   # Daily deploy to the CD environment, runs at 11:00PM EST. Except for Sunday night the deploy_mayflower_cd uses the CD environment instead.
   deploy_cd:
@@ -826,7 +824,6 @@ workflows:
             branches:
               only:
                 - develop
-                - fix-triggers
 
   # Nightly pm:security, runs at 2:00AM EST.
   nightly_pending_security:
@@ -841,4 +838,3 @@ workflows:
               branches:
                   only:
                       - develop
-                      - fix-triggers
