@@ -762,6 +762,27 @@ workflows:
             tags:
               only: /.*/
 
+  # Testing a lower environment (update the target for the env) with Backstop and Nightcrawler, runs at 9:00PM EST.
+  # If you want to run it on different branch add the branch under filters->branches->only with a dash (-)
+#  test_feature:
+#    jobs:
+#      - build
+#      - backstop:
+#          requires: [build]
+#          target: feature1
+#      - crawl:
+#          name: crawl-deploy-1000
+#          requires: [build]
+#          target: feature1
+#          samples: 1000
+#    triggers:
+#      - schedule:
+#          cron: "00 02 * * *"
+#          filters:
+#            branches:
+#              only:
+#                - develop
+
   # Daily run of test suite using super sanitized DB
   build_test_super:
     jobs:
